@@ -1,19 +1,19 @@
 package core.entities.dickings;
 
-import core.entities.*;
+import core.entities.Action;
+import core.entities.Game;
 
 public class DickingsGame extends Game<DickingsContext> {
 
-	private DickingsBoard gameBoard;
-
 	@Override
-	public boolean makeMove(Move<DickingsContext> move) {
-		// TODO make move
+	public boolean applyAction(Action move) {
+		// TODO: applying action
 		return false;
 	}
 
-	public DickingsBoard getGameBoard() {
-		return gameBoard;
+	@Override
+	public void init() {
+		
 	}
 
 }
