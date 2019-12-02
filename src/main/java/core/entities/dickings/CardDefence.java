@@ -1,5 +1,7 @@
 package core.entities.dickings;
 
+import core.entities.cards.Card;
+import core.entities.cards.TypeOfCard;
 
 public class CardDefence extends Card {
 	

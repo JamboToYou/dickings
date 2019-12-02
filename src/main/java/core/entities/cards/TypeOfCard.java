@@ -1,4 +1,4 @@
-package core.entities.dickings;
+package core.entities.cards;
 
 public enum TypeOfCard
 {
