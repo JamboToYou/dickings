@@ -1,9 +1,7 @@
 package core;
 
-/**
- * Hello world!
- *
- */
+import core.entities.dickings.DickingsGame;
+
 public class App {
 	public static void main(String[] args) {
 		

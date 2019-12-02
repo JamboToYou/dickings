@@ -1,9 +1,9 @@
 package core.entities.dickings;
 
 import core.entities.Action;
-import core.entities.Game;
+import core.entities.cards.CardGame;
 
-public class DickingsGame extends Game<DickingsContext> {
+public class DickingsGame extends CardGame<DickingsContext> {
 
 	@Override
 	public boolean applyAction(Action move) {
@@ -14,6 +14,12 @@ public class DickingsGame extends Game<DickingsContext> {
 	@Override
 	public void init() {
 		
+	}
+
+	@Override
+	public boolean makeTurn() {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 }
